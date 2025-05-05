@@ -21,3 +21,22 @@ class siswa {
     void setid(int pId);
     void displayAll(orang &a); // Method to show name from orang class
 };
+
+void siswa::displayAll(orang &a) {
+    cout << id << andl << a.nama;
+}
+
+void orang::setNama(string pNama){
+    nama = pNama;
+}
+
+void siswa::setId(int pId){
+    id = pId
+}
+
+int main(){
+    orang joko;
+    joko.setNama("joko susilo");
+    siswa joko_siswa;
+    joko_siswa.setId(1)
+};
