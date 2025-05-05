@@ -7,3 +7,8 @@ class masasiswa {
     public:
     friend void setNama(mahasiswa &a, string);
 };
+
+void setNama(mahasiswa &a, string b){
+    a.nama = b; // set the name of the mahasiswa object
+    cout << a.nama
+};
